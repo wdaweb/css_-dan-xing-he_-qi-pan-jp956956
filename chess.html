@@ -29,6 +29,7 @@
         .ground{
             width:700px;
             height:300px;
+            position:relative;
         }
         #river{
             width:700px;
@@ -60,6 +61,362 @@
         .italic2{
             background:linear-gradient(140deg,white 49%,black 50%,white 51%)
         }
+        .b-car::after{
+            content:'車';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            transform: translate(-50%,-50%) ;
+            background:white;
+        }
+        .b-car::before{
+            content:'車';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:0;
+            transform: translate(50%,-50%) ;
+            background:white;
+        }
+        .b-horse::after{
+            content:'馬';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:10%;
+            transform: translate(-20%,-50%);
+            background:white;
+        }
+        .b-horse::before{
+            content:'馬';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:10%;
+            transform: translate(10%,-50%);
+            background:white;
+        }
+        .b-elephant::after{
+            content:'象';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:25%;
+            transform: translate(-50%,-50%);
+            background:white;
+        }
+        .b-elephant::before{
+            content:'象';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:25%;
+            transform: translate(50%,-50%);
+            background:white;
+        }
+        .b-four::after{
+            content:'士';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:35%;
+            transform: translate(-20%,-50%);
+            background:white;
+        }
+        .b-four::before{
+            content:'士';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:35%;
+            transform: translate(15%,-50%);
+            background:white;
+        }
+        .b-canon::after{
+            content:'包';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:10%;
+            top:50%;
+            transform: translate(-20%,-50%);
+            background:white;
+        }
+        .b-canon::before{
+            content:'包';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:10%;
+            top:50%;
+            transform: translate(10%,-50%);
+            background:white;
+        }
+        .b-edge::after{
+            content:'卒';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            top:75%;
+            transform: translate(-50%,-50%) ;
+            background:white;
+        }
+        .b-edge::before{
+            content:'卒';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:0;
+            top:75%;
+            transform: translate(50%,-50%) ;
+            background:white;
+        }
+        .b-quoter::after{
+            content:'卒';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:25%;
+            top:75%;
+            transform: translate(-50%,-50%);
+            background:white;
+        }
+        .b-quoter::before{
+            content:'卒';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:25%;
+            top:75%;
+            transform: translate(50%,-50%);
+            background:white;
+        }
+        .b-center::after{
+            content:'將';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:50%;
+            transform: translate(-50%,-50%);
+            background:white;
+        }
+        .b-center::before{
+            content:'卒';
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:50%;
+            top:75%;
+            transform: translate(50%,-50%);
+            background:white;
+        }
+        .r-car::after{
+            content:'車';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            top:100%;
+            transform: translate(-50%,-50%) ;
+            background:white;
+        }
+        .r-car::before{
+            content:'車';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:0;
+            top:100%;
+            transform: translate(50%,-50%) ;
+            background:white;
+        }
+        .r-horse::after{
+            content:'傌';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:10%;
+            top:100%;
+            transform: translate(-20%,-50%);
+            background:white;
+        }
+        .r-horse::before{
+            content:'傌';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:10%;
+            top:100%;
+            transform: translate(10%,-50%);
+            background:white;
+        }
+        .r-elephant::after{
+            content:'相';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:25%;
+            top:100%;
+            transform: translate(-50%,-50%);
+            background:white;
+        }
+        .r-elephant::before{
+            content:'相';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:25%;
+            top:100%;
+            transform: translate(50%,-50%);
+            background:white;
+        }
+        .r-four::after{
+            content:'仕';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:35%;
+            top:100%;
+            transform: translate(-20%,-50%);
+            background:white;
+        }
+        .r-four::before{
+            content:'仕';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:35%;
+            top:100%;
+            transform: translate(15%,-50%);
+            background:white;
+        }
+        .r-canon::after{
+            content:'炮';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:10%;
+            top:50%;
+            transform: translate(-20%,-50%);
+            background:white;
+        }
+        .r-canon::before{
+            content:'炮';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:10%;
+            top:50%;
+            transform: translate(10%,-50%);
+            background:white;
+        }
+        .r-edge::after{
+            content:'兵';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            top:25%;
+            transform: translate(-50%,-50%) ;
+            background:white;
+        }
+        .r-edge::before{
+            content:'兵';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:0;
+            top:25%;
+            transform: translate(50%,-50%) ;
+            background:white;
+        }
+        .r-quoter::after{
+            content:'兵';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:25%;
+            top:25%;
+            transform: translate(-50%,-50%);
+            background:white;
+        }
+        .r-quoter::before{
+            content:'兵';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:25%;
+            top:25%;
+            transform: translate(50%,-50%);
+            background:white;
+        }
+        .r-center::after{
+            content:'將';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            left:50%;
+            top:100%;
+            transform: translate(-50%,-50%);
+            background:white;
+        }
+        .r-center::before{
+            content:'兵';
+            color:red;
+            border-radius: 50%;
+            border: 1px solid black;
+            position:absolute;
+            font-size:3rem;
+            right:50%;
+            top:25%;
+            transform: translate(50%,-50%);
+            background:white;
+        }
+
     </style>
 </head>
 <body>
@@ -68,6 +425,14 @@
         <div id="plate">
             <div id="fight">
                 <div class="ground">
+                    <div class='b-car'></div>
+                    <div class="b-horse"></div>
+                    <div class="b-elephant"></div>
+                    <div class="b-four"></div>
+                    <div class="b-canon"></div>
+                    <div class="b-edge"></div>
+                    <div class="b-quoter"></div>
+                    <div class="b-center"></div>
                     <table>
                         <tr>
                             <td></td>
@@ -116,6 +481,14 @@
                     <p>漢界</p>
                 </div>
                 <div class="ground">
+                    <div class='r-car'></div>
+                    <div class="r-horse"></div>
+                    <div class="r-elephant"></div>
+                    <div class="r-four"></div>
+                    <div class="r-canon"></div>
+                    <div class="r-edge"></div>
+                    <div class="r-quoter"></div>
+                    <div class="r-center"></div>
                     <table>
                         <tr>
                             <td></td>
