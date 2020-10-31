@@ -12,6 +12,7 @@
             margin-top:100px;
             display:flex;
             justify-content: space-around;
+            position: relative;
         }
         #plate{
             width:800px;
@@ -416,12 +417,50 @@
             transform: translate(50%,-50%);
             background:white;
         }
-
+        #plate::before{
+            content:'圖畫裡，龍不吟，虎不嘯，小小書僮可笑可笑';
+            font-size:1.5rem;
+            position: absolute;
+            transition: 1s;
+            top:0%;
+            left:-30%;
+            -webkit-writing-mode: vertical-lr;
+            writing-mode: vertical-lr;
+        }
+        #plate:hover::before{
+            content:'圖畫裡，龍不吟，虎不嘯，小小書僮可笑可笑';
+            font-size:2.5rem;
+            position: absolute;
+            transition: 1s;
+            top:0%;
+            left:100%;
+            -webkit-writing-mode: vertical-lr;
+            writing-mode: vertical-lr;
+        }
+        #plate::after{
+            content:'棋盤裡，車無輪，馬無韁，叫聲將軍堤防堤防';
+            font-size:1.5rem;
+            position: absolute;
+            transition: 1s;
+            top:0%;
+            left:100%;
+            -webkit-writing-mode: vertical-lr;
+            writing-mode: vertical-lr;
+        }
+        #plate:hover::after{
+            content:'棋盤裡，車無輪，馬無韁，叫聲將軍堤防堤防';
+            font-size:2.5rem;
+            position: absolute;
+            transition: 1s;
+            top:0%;
+            left:0%;
+            -webkit-writing-mode: vertical-lr;
+            writing-mode: vertical-lr;
+        }
     </style>
 </head>
 <body>
     <div id="all">
-        <div class="text">棋盤裡，車無輪，馬無韁，叫聲將軍堤防堤防</div>
         <div id="plate">
             <div id="fight">
                 <div class="ground">
@@ -534,7 +573,6 @@
                 </div>
             </div>
         </div>
-        <div class="text">圖畫裡，龍不吟，虎不嘯，小小書僮可笑可笑</div>
     </div>
 </body>
 </html>
